@@ -50,7 +50,8 @@ fi
     _symfony_local
   fi
 }
-complete -F _symfony symfony';
+complete -F _symfony symfony
+';
 
     if($options['system']){
       if (file_exists($systemCompletionPath) && !$options['force']) {
